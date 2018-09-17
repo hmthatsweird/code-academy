@@ -1,2 +1,2 @@
 # code-academy
-Various CA projects
+Various code academy projects
