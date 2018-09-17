@@ -1,0 +1,18 @@
+def median(lst):
+  lst = sorted(lst)
+  
+  if len(lst) == 1:
+    return lst[0]
+  else:
+    if len(lst) % 2 == 0:
+    	length_1 = (len(lst)) / 2.0
+    	length_2 = length_1 - 1.0
+      	med_1 = lst[int(length_1)]
+      	med_2 = lst[int(length_2)]
+        med_3 = (med_1 + med_2) / 2.0
+        return med_3
+    else:
+      length_3 = (len(lst)) / 2.0
+      length_4 = length_3 + 1.0
+      med_4 = lst[int(length_3)]
+      return med_4
